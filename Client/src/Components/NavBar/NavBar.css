@@ -17,6 +17,7 @@
     width: 185px;
     height: auto;
     cursor: pointer;
+    -webkit-user-drag: none;
 }
 
 .navlink-pane {
@@ -93,4 +94,5 @@
     width: 38px;
     height: auto;
     cursor: pointer;
+    -webkit-user-drag: none;
 }
