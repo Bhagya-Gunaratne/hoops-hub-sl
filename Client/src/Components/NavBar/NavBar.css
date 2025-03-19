@@ -1,0 +1,96 @@
+.nav-container {
+    display: flex;
+    background: linear-gradient(to bottom right, #011319, #173B45);
+    height: 90px;
+    margin: 0;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.41);
+}
+
+.logo-pane {
+    display: flex;
+    width: 15%;
+}
+
+.logo-pane img {
+    width: 185px;
+    height: auto;
+    cursor: pointer;
+}
+
+.navlink-pane {
+    display: flex;
+    width: 48%;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 0.7rem;
+    justify-content: end;
+    color: rgba(248, 237, 237, 1);
+}
+
+.navlink-pane h2 {
+    cursor: pointer;
+}
+
+.navlink-pane h2:hover {
+    color: rgba(255, 112, 67, 1);
+}
+
+.search-pane {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-pane input {
+    height: 33px;
+    width: 300px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(71, 129, 255, 1);
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+    outline: none;
+}
+
+.search-pane input::placeholder {
+    color: rgba(112, 112, 112, 0.7);
+    font-size: 14px;
+}
+
+
+.search-pane i {
+    position: absolute;
+    right: 15px;
+    color: rgb(63, 63, 63);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.profile-pane {
+    display: flex;
+    background-color: #173B45;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 112, 67, 1);
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    margin-left: -25px;
+}
+
+.profile-pane img {
+    width: 38px;
+    height: auto;
+    cursor: pointer;
+}

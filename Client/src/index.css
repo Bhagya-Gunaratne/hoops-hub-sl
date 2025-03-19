@@ -1,3 +1,27 @@
 body {
   margin: 0;
+  background: linear-gradient(to top left, #011319, #173B45);
+  height: 800vh;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 112, 67, 1) black;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: black;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgba(255, 112, 67, 1);
+  border-radius: 30px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.7);
 }
