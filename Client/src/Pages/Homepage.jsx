@@ -3,6 +3,12 @@ import './Homepage.css'
 import NavBar from '../Components/NavBar/NavBar'
 import hero from '../assets/HeroImge.png'
 import herotypo from '../assets/HeroTypo.png'
+import realtimetrack from '../assets/realtime-tracking.png'
+import islandwide from '../assets/islandwide-book.png'
+import matchanalytics from '../assets/ai-matchanalytics.png'
+import matchgallery from '../assets/match-gallery.png'
+import community from '../assets/community.png'
+import OngoingMatchesCard from '../Components/OngoingMatchesCard/OngoingMatchesCard'
 
 const Homepage = () => {
     return (
@@ -21,10 +27,19 @@ const Homepage = () => {
                         <div className='hb22'>Register as a Player</div>
                     </div>
                     <div className="hb3set">
-                        <div className='hb31'>Book Island-Wide Courts</div>
+                        <div className='hb31'>Book Islanyukid-Wide Courts</div>
                     </div>
                 </div>
+
             </div>
+            <div className="services-container">
+                <img src={realtimetrack} alt="realtime" />
+                <img src={islandwide} alt="islandwide" />
+                <img src={matchanalytics} alt="matchanalytics" />
+                <img src={matchgallery} alt="matchgallery" />
+                <img src={community} alt="community" />
+            </div>
+            <OngoingMatchesCard />
         </div>
     )
 }
