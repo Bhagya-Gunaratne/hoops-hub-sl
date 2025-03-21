@@ -1,0 +1,31 @@
+.match-gallery-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2D6562;
+    height: 75vh;
+    width: 95%;
+    margin-top: 50px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.matchglry-cont-title {
+    display: flex;
+    width: 250px;
+    height: 60px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #14363F;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.41);
+}
+
+.matchglry-cont-title h1 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
