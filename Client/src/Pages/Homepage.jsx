@@ -9,6 +9,7 @@ import matchanalytics from '../assets/ai-matchanalytics.png'
 import matchgallery from '../assets/match-gallery.png'
 import community from '../assets/community.png'
 import OngoingMatchesCard from '../Components/OngoingMatchesCard/OngoingMatchesCard'
+import BookCourtsCard from '../Components/BookCourtsCard/BookCourtsCard'
 
 const Homepage = () => {
     return (
@@ -40,6 +41,7 @@ const Homepage = () => {
                 <img src={community} alt="community" />
             </div>
             <OngoingMatchesCard />
+            <BookCourtsCard />
         </div>
     )
 }
