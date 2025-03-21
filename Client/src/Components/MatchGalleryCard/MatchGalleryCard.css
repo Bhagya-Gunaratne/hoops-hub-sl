@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: #2D6562;
-    height: 75vh;
+    /* height: 75vh; */
     width: 95%;
     margin-top: 50px;
     border-radius: 40px;
@@ -20,6 +20,7 @@
     align-items: center;
     background-color: #14363F;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.41);
+    margin-bottom: 32px;
 }
 
 .matchglry-cont-title h1 {
@@ -28,4 +29,59 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-top: 8px;
+}
+
+.matchglry-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.matchglry-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #14363F;
+    width: 315px;
+    height: 55vh;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.matchglry-card:hover {
+    transform: translateY(-10px);
+}
+
+.matchglry-c-img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.matchglry-c-info {
+    display: flex;
+    color: white;
+    height: 28vh;
+    width: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.matchglry-c-info h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 30px;
 }
