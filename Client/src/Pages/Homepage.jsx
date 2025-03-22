@@ -11,6 +11,7 @@ import community from '../assets/community.png'
 import OngoingMatchesCard from '../Components/OngoingMatchesCard/OngoingMatchesCard'
 import BookCourtsCard from '../Components/BookCourtsCard/BookCourtsCard'
 import MatchGalleryCard from '../Components/MatchGalleryCard/MatchGalleryCard'
+import Footer from '../Components/Footer/Footer'
 
 const Homepage = () => {
     return (
@@ -44,7 +45,7 @@ const Homepage = () => {
             <OngoingMatchesCard />
             <BookCourtsCard />
             <MatchGalleryCard />
-
+            <Footer />
         </div>
     )
 }
