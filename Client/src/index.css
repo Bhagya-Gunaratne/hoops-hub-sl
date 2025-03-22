@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background: linear-gradient(to top left, #011319, #173B45);
-  height: 800vh;
+  /* height: 800vh; */
 }
 
 html {
