@@ -37,7 +37,19 @@ const SearchSection = () => {
 
       </div>
       <div className="search-btm-sec">
-        ifuebwifuwefbiwufewi fuwefweuf wbef iwuef iefuw efiwfuw fwe bfiuewf wbife
+        <ul>
+          <li>National Matches</li>
+          <li>•</li>
+          <li>International Matches</li>
+          <li>•</li>
+          <li>University Matches</li>
+          <li>•</li>
+          <li>Club Matches</li>
+          <li>•</li>
+          <li>School Matches</li>
+          <li>•</li>
+          <li>All</li>
+        </ul>
       </div>
     </div>
   )
