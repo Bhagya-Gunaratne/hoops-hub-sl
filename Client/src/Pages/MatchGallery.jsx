@@ -6,8 +6,8 @@ import NavBar from '../Components/NavBar/NavBar'
 const MatchGallery = () => {
   return (
     <div className='matchgallery-page-container'>
-      <NavBar/>
-      <SearchSection/>
+      <NavBar />
+      <SearchSection />
     </div>
   )
 }
