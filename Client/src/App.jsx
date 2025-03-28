@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, BrowserRouter, } from "react-router-dom";
 import './App.css'
 import Homepage from "./Pages/Homepage";
+import MatchGallery from "./Pages/MatchGallery";
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Homepage />}></Route>
+          <Route path='/' element={<MatchGallery />}></Route>
         </Routes>
       </BrowserRouter>
 

@@ -1,0 +1,42 @@
+.search-sec-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 23vh;
+    background-color:rgba(0, 0, 0, 0.44);
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.search-tp-sec{
+    display: flex;
+    width: 94%;
+    height: 45px;
+    background-color: beige;
+}
+
+.search-bn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    background-color: pink;
+}
+
+.pick-dt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(167, 97, 108);
+}
+
+.pick-typ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: rgb(97, 167, 166);
+}
