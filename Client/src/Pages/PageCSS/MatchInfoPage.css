@@ -18,7 +18,7 @@
     position: relative;
     display: flex;
     width: 100%;
-    min-height: 21vh;
+    min-height: 17vh;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -36,7 +36,7 @@
     position: relative;
     font-family: "Quicksand", sans-serif;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     width: 60%;
     text-align: center;
@@ -93,19 +93,19 @@
 
 .matbc-img-typo img {
     float: left;
-    width: 700px;
-    height: 450px;
+    width: 650px;
+    height: 400px;
     object-fit: cover;
     display: block;
     margin-right: 30px;
     margin-bottom: 20px;
-    border-bottom-right-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
 }
 
 .matbc-img-typo p {
     text-align: justify;
     font-family: "Quicksand", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 25px;
@@ -116,8 +116,8 @@
     margin-top: auto;
     margin-right: 50px;
     font-size: 1rem;
-    width: 80px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     font-family: "Quicksand", sans-serif;
     cursor: pointer;
     border-top-left-radius: 50px;
@@ -129,7 +129,7 @@
 }
 
 .matbc-inf-set button i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 10px;
 }
 
@@ -156,8 +156,8 @@
 .gc-title {
     display: flex;
     background-color: #3E7BFF;
-    width: 250px;
-    height: 60px;
+    width: 220px;
+    height: 55px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     justify-content: center;
@@ -167,8 +167,9 @@
 
 .gc-title h1 {
     font-family: "Quicksand", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 400;
+    margin-top: 8px;
     color: white;
 }
 
@@ -178,7 +179,7 @@
     gap: 20px;
     width: 95%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 20px 0;
     margin-bottom: 10px;
 }
@@ -202,8 +203,8 @@
 .gallery-container button {
     margin-top: -10px;
     font-size: 1rem;
-    width: 80px;
-    height: 50px;
+    width: 60px;
+    height: 40px;
     font-family: "Quicksand", sans-serif;
     cursor: pointer;
     border-top-left-radius: 50px;

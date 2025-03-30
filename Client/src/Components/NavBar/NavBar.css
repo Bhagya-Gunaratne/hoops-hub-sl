@@ -26,15 +26,17 @@
     width: 48%;
     margin-left: 20px;
     margin-right: 20px;
-    gap: 50px;
-    font-family: "Quicksand", sans-serif;
-    font-size: 0.7rem;
-    justify-content: end;
-    color: rgba(248, 237, 237, 1);
+    gap: 70px;
+    justify-content: center;
 }
 
 .navlink-pane h2 {
     cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(248, 237, 237, 1);
+    transition: color 0.3s ease;
 }
 
 .navlink-pane h2:hover {
