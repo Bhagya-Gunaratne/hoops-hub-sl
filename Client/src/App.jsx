@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter, } from "react-ro
 import './App.css'
 import Homepage from "./Pages/Homepage";
 import MatchGallery from "./Pages/MatchGallery";
+import MatchInfoPage from "./Pages/MatchInfoPage";
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<MatchGallery />}></Route>
+          <Route path='/' element={<Homepage />}></Route>
+          <Route path='/matchgallery' element={<MatchGallery />}></Route>
+          <Route path='/matchinfo' element={<MatchInfoPage />}></Route>
         </Routes>
       </BrowserRouter>
 

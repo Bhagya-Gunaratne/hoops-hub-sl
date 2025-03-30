@@ -1,5 +1,5 @@
 import React from 'react'
-import './Homepage.css'
+import './PageCSS/Homepage.css'
 import NavBar from '../Components/NavBar/NavBar'
 import hero from '../assets/HeroImge.png'
 import herotypo from '../assets/HeroTypo.png'

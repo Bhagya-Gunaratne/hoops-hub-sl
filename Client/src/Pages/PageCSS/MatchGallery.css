@@ -7,30 +7,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500vh;
+    /* height: 500vh; */
 }
 
-.result-n-sort{
+.result-n-sort {
     display: flex;
     width: 87%;
     margin-top: 20px;
     justify-content: space-between;
 }
 
-.result-n-sort h2{
+.result-n-sort h2 {
     font-family: "Quicksand", sans-serif;
     color: white;
     font-size: 1rem;
 }
 
-.sortsec{
+.sortsec {
     display: flex;
     width: 20%;
     justify-content: end;
     align-items: center;
 }
 
-.sortsec h2{
+.sortsec h2 {
     font-family: "Quicksand", sans-serif;
     color: white;
     font-size: 1rem;
@@ -59,30 +59,31 @@
 
 .match-gallery-sec {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
     width: 88%;
-    height: auto; 
+    height: auto;
     margin-top: 20px;
     margin-bottom: -10px;
     justify-items: center;
 }
 
-.mtch-gal-single{
+.mtch-gal-single {
     display: flex;
     flex-direction: column;
     width: 635px;
     height: 500px;
     border-radius: 30px;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.10);
 }
 
-.mtch-gl-top{
+.mtch-gl-top {
     display: flex;
     width: 100%;
     height: 50%;
 }
 
-.gl-tp-left{
+.gl-tp-left {
     display: flex;
     width: 55%;
     height: 100%;
@@ -93,24 +94,24 @@
     border-top-left-radius: 30px;
 }
 
-.gl-tp-right{
+.gl-tp-right {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 45%;
     height: 100%;
-    object-fit: cover;    
+    object-fit: cover;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     border-top-right-radius: 30px;
 }
 
-.gl-tp-right img{
+.gl-tp-right img {
     filter: blur(50px);
 }
 
-.gl-inf-set{
+.gl-inf-set {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -126,7 +127,7 @@
 }
 
 .gl-tp-right h1 {
-    top: 5%; 
+    top: 5%;
     font-family: basketball;
     font-size: 1.4rem;
     font-weight: 300;
@@ -145,7 +146,7 @@
     font-size: 1rem;
 }
 
-.mtch-gl-bottom{
+.mtch-gl-bottom {
     display: flex;
     width: 100%;
     height: 47%;
@@ -156,9 +157,9 @@
     background-color: rgba(51, 77, 84, 1);
 }
 
-.mtch-gl-bottom p{
+.mtch-gl-bottom p {
     font-family: "Quicksand", sans-serif;
-    font-weight:400;
+    font-weight: 400;
     color: white;
     font-size: 1rem;
     text-align: justify;

@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchSection from '../Components/SearchSection/SearchSection'
-import './MatchGallery.css'
+import './PageCSS/MatchGallery.css'
 import NavBar from '../Components/NavBar/NavBar'
 import MatchGalleryData from '../assets/DummyData/MatchGalleryData'
 import Footer from '../Components/Footer/Footer'
@@ -15,7 +15,7 @@ const MatchGallery = () => {
         <h2>• Search Results:</h2>
 
         <div className="sortsec">
-        <h2>SORT:</h2>
+          <h2>SORT:</h2>
           <select>
             <option value="latest">Latest First</option>
             <option value="oldest">Oldest First</option>
@@ -46,7 +46,7 @@ const MatchGallery = () => {
         ))}
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   )
 }
