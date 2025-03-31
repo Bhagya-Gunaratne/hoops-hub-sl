@@ -1,0 +1,106 @@
+.single-court-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.single-court-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(51, 77, 84, 1);
+    border-radius: 50px;
+    overflow: hidden;
+    height: 300vh;
+    width: 90%;
+    margin-top: 70px;
+}
+
+.sing-crt-sec-1 {
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.sing-crt-sec-1 img {
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-bottom-right-radius: 50px;
+}
+
+.sing-crt-s1-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10px 35px;
+    padding-bottom: 0px;
+}
+
+.sing-crt-s1-right h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.7rem;
+    width: 90%;
+    color: white;
+    font-weight: 500;
+}
+
+.sing-crt-s1-right h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    color: #00FF08;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sing-crt-s1-right p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+    width: 95%;
+    text-align: end;
+    align-self: end;
+    margin-right: 20px;
+}
+
+.sing-crt-sec-2 {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.sing-crt-sec-2 h1 {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    height: 60px;
+    background: linear-gradient(to left, #334d5400 15%, #acacac 90%);
+    width: 65%;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.sing-crt-sec-2 h2 {
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding-left: 30px;
+}
+
+.sing-crt-sec-2 span {
+    color: #FF7043;
+    margin-left: 5px;
+    font-weight: bold;
+}

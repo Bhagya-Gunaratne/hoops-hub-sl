@@ -1,0 +1,100 @@
+.calendar-container {
+    width: 100%;
+    height: 50vh;
+    background-color: #FFFFFF;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(to right, #334d54 10%, #D9D9D9 90%);
+    border-top-right-radius: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+.calendar-header button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 5px;
+    color: #4B4B4B;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.calendar-header button:hover {
+    color: #4781FF;
+}
+
+
+
+
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 56x;
+    margin: 18px 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FF7043;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    margin-right: -2px;
+    margin-bottom: 14px;
+    margin-top: -8px;
+}
+
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #868686;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 18px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.past-day {
+    color: lightgray;
+    pointer-events: none;
+}
+
+.current-day {
+    background-color: #4781FF;
+    color: white;
+    font-weight: bold;
+}
+
+.selected-day {
+    background-color: #FF7043;
+    color: white;
+}
+
+.calendar-day:hover:not(.past-day) {
+    background-color: #4781ff80;
+    color: white;
+}
