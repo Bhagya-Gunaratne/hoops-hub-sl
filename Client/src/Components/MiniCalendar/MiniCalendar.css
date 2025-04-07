@@ -58,9 +58,10 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     /* grid-template-rows: repeat(6, 1fr); */
-    margin-right: -2px;
+    margin-right: 3px;
     margin-bottom: 14px;
     margin-top: -8px;
+    gap: 5px;
 }
 
 .calendar-day {
