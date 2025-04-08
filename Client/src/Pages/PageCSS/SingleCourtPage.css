@@ -408,13 +408,14 @@
 .crt-gal-img-set {
     display: flex;
     padding: 25px;
+    padding-left: 18px;
     justify-content: space-around;
-    width: 93%;
+    width: 97%;
 }
 
 .crt-gal-img-set img {
-    width: 270px;
-    height: 270px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -432,7 +433,8 @@
     align-self: center;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    margin-left: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .crt-gal-img-set button:hover {

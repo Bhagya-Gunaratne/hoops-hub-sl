@@ -6,10 +6,12 @@ import thumb from '../assets/crt-thumb.png'
 import MiniCalendar from '../Components/MiniCalendar/MiniCalendar'
 import CourtAvailability from '../assets/DummyData/CourtAvailability'
 import testimg from '../assets/mglery-1.png'
+import CourtsData from '../assets/DummyData/CourtsData'
 
 const SingleCourtPage = () => {
 
     const selectedCourt = CourtAvailability.find(court => court.id === 1);
+    const selectedCourtData = CourtsData.find(court => court.id === 1);
     const slots = selectedCourt?.slots || [];
 
     return (
@@ -17,10 +19,10 @@ const SingleCourtPage = () => {
             <NavBar />
             <div className="single-court-container">
                 <div className="sing-crt-sec-1">
-                    <img src={thumb} alt="Thumb Image" />
+                    <img src={selectedCourtData?.image} alt="Thumb Image" />
                     <div className="sing-crt-s1-right">
-                        <h1>TRINITY COLLEGE KANDY QUADRANGLE</h1>
-                        <h2>AVAILABLE</h2>
+                        <h1>{selectedCourtData?.name.toUpperCase()}</h1>
+                        <h2>{selectedCourtData?.availability?.toUpperCase()}</h2>
                         <MiniCalendar />
                         <p>*Faded dates of other next month could be available if you move to the next month. Other faded dates and dates that are colored in red are unavailable.</p>
                     </div>
@@ -121,19 +123,19 @@ const SingleCourtPage = () => {
                         <h1>GALLERY</h1>
                     </div>
                     <div className="crt-gal-img-set">
-                        <img src={testimg} alt="Court Gallery" />
-                        <img src={testimg} alt="Court Gallery" />
-                        <img src={testimg} alt="Court Gallery" />
-                        <img src={testimg} alt="Court Gallery" />
-                        <button><i class="fa-solid fa-angle-right"></i></button>
+                        {selectedCourtData?.gallery?.map((img, index) => (
+                            <img src={img} alt={`Court Gallery ${index + 1}`} key={index} />
+                        ))}
+                        <button><i className="fa-solid fa-angle-right"></i></button>
                     </div>
+
                 </div>
 
                 <div className="wht-youd-find">
                     <div className="sing-crt-sec-2">
                         <h1>What you will find at this facility</h1>
                     </div>
-                    <p>Located within the historic grounds of Trinity College Kandy, the Quadrangle Basketball Court is one of the most well-known outdoor courts in the region. Nestled in the heart of Kandy, this court has been home to generations of passionate basketball players, hosting school tournaments, training sessions, and recreational games.<br /><br />The court features a well-maintained playing surface, clear boundary markings, and standard-height hoops, making it suitable for players of all levels. Whether you are looking for a space to train, organize a friendly match, or host an inter-school competition, this facility offers an ideal setting.<br /><br />Our court is available for bookings seven days a week, with closures only on public holidays or during special school events. Limited parking is available nearby, and our staff is always ready to assist with any inquiries. The location is easily accessible, providing a convenient and professional environment for both individual players and teams.<br /><br />All booking requests can be completed online, where you will be able to check real-time availability, view pricing information, complete the booking process, and make payments securely. If you have any specific requirements or need further clarification, please feel free to use the messaging feature, and our team will be happy to assist you.<br /><br />Come experience basketball at one of Kandy’s most iconic courts, where history meets sporting excellence! 🏀🔥</p>
+                    <p dangerouslySetInnerHTML={{ __html: selectedCourtData.facility }}></p>
                 </div>
 
             </div>
