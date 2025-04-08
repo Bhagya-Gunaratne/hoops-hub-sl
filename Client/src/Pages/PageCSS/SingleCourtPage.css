@@ -11,7 +11,7 @@
     background-color: rgba(51, 77, 84, 1);
     border-radius: 50px;
     overflow: hidden;
-    height: 300vh;
+    /* height: 300vh; */
     width: 90%;
     margin-top: 70px;
 }
@@ -71,9 +71,7 @@
 .sing-crt-sec-2 {
     display: flex;
     flex-direction: column;
-    /* background-color: aliceblue; */
     width: 100%;
-    height: 100vh;
     margin-top: 20px;
 }
 
@@ -103,4 +101,358 @@
     color: #FF7043;
     margin-left: 5px;
     font-weight: bold;
+}
+
+.slot-select-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 95.5%;
+    /* height: 40px; */
+    margin-top: 10px;
+}
+
+.singleslot-select {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    background-color: #FF7043;
+}
+
+.slot-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 50%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+.crt-typ-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+#hlf-btn {
+    width: 50%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #3E7BFF;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#hlf-btn:hover {
+    background-color: #2752ad;
+}
+
+#fll-btn {
+    width: 50%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FF7043;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#fll-btn:hover {
+    background-color: #dc4618;
+}
+
+.disabled-btn {
+    background-color: #353535 !important;
+    color: rgb(152, 152, 152) !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+
+
+
+.crt-resrv-info-container {
+    display: flex;
+    align-self: center;
+    width: 95.5%;
+    height: 55vh;
+    margin-top: 30px;
+    /* background-color: #353535; */
+}
+
+.crt-rsv-left {
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+    width: 30%;
+    height: 100%;
+}
+
+.crt-rsv-left h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.crt-rv-inf-cont {
+    display: flex;
+}
+
+.hlfcrt-lbl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3E7BFF;
+    width: 32%;
+    height: 45px;
+}
+
+.fllcrt-lbl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7043;
+    width: 32%;
+    height: 45px;
+}
+
+.price-lbl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 63%;
+    height: 45px;
+    background-color: #353535;
+}
+
+.crt-rsv-left p {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    text-align: justify;
+    width: 95%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.crt-rsv-left span {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.crt-rsv-right {
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    width: 71%;
+    height: 100%;
+}
+
+.add-tm-mmbs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+}
+
+.add-tm-mmbs h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #3E7BFF;
+}
+
+.add-tm-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-tm-form h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.adtmfrm-vals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adtmfrm-vals p {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.add-tm-mmbs hr {
+    width: 100%;
+    height: 1px;
+    background-color: #aaa;
+    border: none;
+    margin: 10px 0;
+}
+
+
+.add-tm-mmbs button {
+    padding: 11px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #3E7BFF;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-tm-mmbs button:hover {
+    background-color: #2752ad;
+}
+
+
+
+
+.booking-brf {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+.booking-brf h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #3E7BFF;
+    margin-bottom: 10px;
+}
+
+.booking-brf h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.booking-brf span {
+    font-weight: bold;
+    margin: 6px;
+}
+
+.brf-vals {
+    margin-bottom: -26px;
+}
+
+.booking-brf button {
+    width: 100%;
+    padding: 11px;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #3E7BFF;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-brf button i {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.booking-brf button:hover {
+    background-color: #2752ad;
+}
+
+
+
+
+.court-galry-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.crt-gal-img-set {
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    width: 93%;
+}
+
+.crt-gal-img-set img {
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.crt-gal-img-set button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #FF7043;
+    align-self: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.crt-gal-img-set button:hover {
+    background-color: #000000;
+}
+
+
+.wht-youd-find {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+
+.wht-youd-find p {
+    width: 94.5%;
+    padding-left: 33px;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 40px;
 }
