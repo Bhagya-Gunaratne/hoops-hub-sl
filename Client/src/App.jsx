@@ -5,6 +5,7 @@ import MatchGallery from "./Pages/MatchGallery";
 import MatchInfoPage from "./Pages/MatchInfoPage";
 import CourtsPage from "./Pages/CourtsPage";
 import SingleCourtPage from "./Pages/SingleCourtPage";
+import LogRegPage from "./Pages/LogRegPage";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/matchinfo' element={<MatchInfoPage />}></Route>
           <Route path='/courts' element={<CourtsPage />}></Route>
           <Route path='/singlecourt' element={<SingleCourtPage />}></Route>
+          <Route path='/logreg' element={<LogRegPage />}></Route>
         </Routes>
       </BrowserRouter>
 
